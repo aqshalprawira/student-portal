@@ -5,6 +5,7 @@
 2. Delete Student -> Menghapus data murid pada aplikasi student portal
 3. Edit Student -> Mengubah data murid pada aplikasi student portal
 4. All Students -> Melihat seluruh data murid yang terdaftar pada aplikasi student portal
+5. Filter Students -> Melakukan filter terhadap data murid sesuai dengan fakultas nya
 
 ## Cara Menjalankan
 1. Jalankan menggunakan command `npm run start:server` dan server akan berjalan pada `http://localhost:3001/` dan pada `http://localhost:3001/student` akan menampilkan data murid
