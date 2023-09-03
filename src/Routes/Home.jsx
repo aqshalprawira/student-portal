@@ -14,7 +14,6 @@ const Home = () => {
         textAlign="center"
         padding={8}
         color="grey"
-        bgColor="#1A202C"
       >
         <Text fontWeight="bold" fontSize="2xl" fontFamily="helvetica" marginBottom={4}>
           Student Portal Website Application

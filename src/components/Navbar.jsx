@@ -7,7 +7,6 @@ import { SearchIcon, AddIcon } from '@chakra-ui/icons';
 const NavBar = () => {
   return (
     <Flex
-    bgColor="#1A202C"
       w="100%"
       pt={2}
       pb={2}

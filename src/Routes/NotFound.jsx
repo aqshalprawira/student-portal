@@ -19,7 +19,6 @@ const NotFound = () => {
         color="white"
         textAlign="center"
         padding={8}
-        bgColor="#1A202C"
       >
         <Text fontWeight="bold" fontSize="2xl" fontFamily="helvetica" marginBottom={4}>
         404 | Not Found

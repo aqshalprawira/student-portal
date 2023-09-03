@@ -108,11 +108,11 @@ const EditStudent = () => {
   return (
     <>
       <NavBar />
-      
+
       {loading ? (
         <p>Loading ...</p>
       ) : (
-        <Box w="75%" mx="auto" mt={8} mb={5} bgColor="#1A202C">
+        <Box w="75%" mx="auto" mt={8} mb={5}>
         <form onSubmit={handleSubmit} id="form-student">
           <Box>
             <label htmlFor="fullname">Fullname</label>

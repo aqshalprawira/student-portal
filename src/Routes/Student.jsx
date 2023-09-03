@@ -52,7 +52,7 @@ const Student = () => {
             <>
               <NavBar />
           
-              <Select data-testid="filter" value={filter} onChange={handleFilterChange} mt={5} mb={5} bgColor="#1A202C">
+              <Select data-testid="filter" value={filter} onChange={handleFilterChange} mt={5} mb={5}>
                 <option value="All">All</option>
                 <option value="Fakultas Ekonomi">Fakultas Ekonomi</option>
                 <option value="Fakultas Ilmu Sosial dan Politik">
@@ -64,7 +64,7 @@ const Student = () => {
                 </option>
               </Select>
 
-              <Box overflowX="auto" bgColor="#1A202C">
+              <Box overflowX="auto">
               {loading ? (
                 <p>Loading ...</p>
               ) : (
